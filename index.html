@@ -122,15 +122,37 @@ font-style:italic
 }
 
 .col.text {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
-	text-indent: 40px;
-}
+        opacity: 1;                
+    transform: translateY(3px);  
+    transition: 0.3s ease;  
 
+	
+        }
+	.col.text :hover {
+             opacity: 1.2;                   
+    transform: translateY(0);     
+    color:#339999;       
+            text-shadow: 0 0 2px #000000;
+font-style:italic
+}
 .col.text h2 {
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 10px;
-	text-indent: 40px;
+	text-indent: 120px;
+opacity: 1;                
+    transform: translateY(3px);  
+    transition: 0.3s ease;  
+
+	
+        }
+	.col.text h2:hover {
+             opacity: 1.2;                   
+    transform: translateY(0);     
+    color:#0099FF;       
+            text-shadow: 0 0 2px #000000;
+font-style:italic
 }
 
 .col.img img {
@@ -138,8 +160,36 @@ font-style:italic
     height: 350px;
     object-fit: cover;
     border-radius: 6px;
+    opacity: 0.7;          
+    transition: 0.3s ease;
 }
 
+.col.img img:hover {
+    opacity: 1;            
+}
+
+
+ul {
+    padding-left: 60px;
+}
+
+.col.text lia {
+    font-size: 22px;
+    margin-bottom: 10px;
+	padding-left: 60px;
+  color:#0099FF; 
+opacity: 1;                
+    transition: 0.3s ease;  
+
+	
+        }
+	.col.text lia:hover {
+             opacity: 1.2;                       
+      
+            text-shadow: 0 0 2px #000000;
+font-style:italic
+}
+ 
     </style>
 </head>
 <body>
@@ -168,10 +218,12 @@ font-style:italic
 </div>
 <div class="row">
     <div class="col text" >
+<br>
+<br>
         <h2>Học siêu - Chơi đỉnh</h2>
-        <br>
         <p>Các thành tích đạt được:</p>
         <br>
+
         <ul>
             <li>03 HCV Bơi lội</li>
             <li>02 HCV, 06 HVB và 05 HCĐ Võ thuật</li>
@@ -191,6 +243,8 @@ font-style:italic
         <img src="anh5.jpg" alt="">
     </div>
 	<div class="col text">
+<br>
+<br>
         <h2>CLB Thể thao</h2>
         <ul>
             <li>Bóng đá</li>
@@ -199,23 +253,25 @@ font-style:italic
             <li>Cầu lông</li>
 	<li>Võ thuật</li>
 	<li>Bơi lội</li>
-        </ul>
+</ul>
+<lia><a href="bongda.html" class="link">Chi tiết</a><lia>
+
     </div>
 
 </div>
 
 <div class="row">
     <div class="col text">
-        <h2>Học siêu - Chơi đỉnh</h2>
-        <br>
-        <p>Các thành tích đạt được:</p>
-        <br>
+<br>
+<br>
+        <h2>CLB Nghệ thuật</h2>
         <ul>
             <li>Mĩ thuật</li>
             <li>Nhiếp ảnh</li>
             <li>Âm nhạc</li>
             <li>Khiêu vũ</li>
         </ul>
+	<lia><a href="mithuat.html" class="link">Chi tiết</a></lia>
     </div>
 
     <div class="col img">
@@ -260,6 +316,7 @@ font-style:italic
 
 </body>
 </html>
+
 
 
 
